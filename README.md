@@ -26,6 +26,7 @@ Follow these steps to run the project locally:
 
    ```bash
    git clone https://github.com/your-username/financial-portfolio-management-system.git
+   ```
    
 2. Navigate to the project directory:
 
