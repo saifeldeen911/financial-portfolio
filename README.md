@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Financial Portfolio Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dynamic **Financial Portfolio Management System** designed for individual investors and financial advisors. This project allows users to create and manage investment portfolios, add assets, log buy/sell transactions, and view real-time portfolio insights through charts and dynamic metrics.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Portfolio Management**: Create, edit, and view portfolios, and add assets like stocks, bonds, etc.
+- **Transaction Management**: Log buy/sell transactions for assets, track the history of transactions.
+- **Dashboard**: View key financial metrics like total portfolio value, daily change, and portfolio allocation through charts.
+- **Transaction Reconciliation**: Check if buy and sell transactions match with automatic reconciliation status.
+- **Data Persistence**: Portfolios and transactions are stored using localStorage, ensuring data persistence across sessions.
+- **Real-time Updates**: Charts and financial metrics update dynamically based on user input.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React.js
+- **Styling**: TailwindCSS
+- **Charts**: Chart.js
+- **Storage**: LocalStorage for data persistence
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Follow these steps to run the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/your-username/financial-portfolio-management-system.git
+   
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ```bash
+  cd financial-portfolio-management-system
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the required dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
+4. Start the application:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open http://localhost:3000 to view it in the browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Creating a New Portfolio
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Navigate to the Portfolio Management section.
+2. Enter a portfolio name, and click Create Portfolio.
+3. Add assets (e.g., stocks, bonds) to the portfolio by entering asset type, symbol, quantity, and price.
+   
+## Viewing the Dashboard
 
-## Learn More
+- The Dashboard shows the total portfolio value, daily changes, and asset allocation through charts.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Managing Transactions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Go to the Transaction Management section.
+2. Log buy or sell transactions by selecting the transaction type, asset, quantity, and price.
+3. View transaction history and the system will automatically reconcile the transactions.
